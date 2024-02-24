@@ -1,0 +1,367 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo {
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.logo p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgba(128, 128, 128, 0.815);
+  font-weight: lighter;
+  padding-top: 5px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.location {
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.location input {
+  border: 2px solid whitesmoke;
+  width: 180px;
+  box-sizing: border-box;
+  height: 60px;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+.search {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.search input {
+  width: 430px;
+  box-sizing: border-box;
+  border: none;
+  height: 60px;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+.navlinks ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 270px;
+  margin-top: 30px;
+  gap: 35px;
+}
+hr {
+  margin-top: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.267);
+  background-color: 1px gray;
+}
+.navlinks li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.navlinks ul :hover {
+  color: orangered;
+}
+.connect {
+  background-color: orangered;
+  justify-content: center;
+  text-align: center;
+  width: 900px;
+  margin-left: 220px;
+  font-size: 15px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.connect h3 a {
+  color: white;
+  text-decoration: none;
+}
+.billimage  {
+    margin-top: 10px;
+    border-radius: 13px;
+    margin-right: 10px;
+    background-image: url(images/backgroundrabbit.png);
+width: 850px;
+height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-color: rgba(128, 128, 128, 0.664);
+margin-left: 250px;
+}
+
+.billboard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding-top: 80px;
+}
+
+.discount {
+  display: flex;
+}
+.discount button{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(204, 90, 49);
+    background-color: rgb(252, 156, 121);
+}
+.billbtn button, a{
+text-decoration: none;
+color: white;
+}
+.billtext{
+     padding-top: 10px;
+}
+.billtext h2 {
+    font-size: 40px;
+}
+.billtext h2 + h2{
+      font-size: 35px;  
+      padding-bottom: 5px;
+}
+.billtext h5{
+    padding-top: 20px;
+    font-size: 25px;  
+}
+.billtext button{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.breed {
+margin-top: 10px;
+margin-left: 350px;
+}
+.breed h4{
+  font-size: 25px;
+}
+.breed p{
+  color: grey;
+}
+
+    .card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    
+.card-image img {
+ height: 200px; width:350px; 
+ padding-right: 50px;
+    }
+.card-body {
+      padding: 20px;
+    }
+    .card-body p{
+padding-top: 5px;
+color: green;
+    }
+    .card-body h3{
+padding-top: 10px;
+color: rgb(245, 29, 29);
+    }
+    .card-body button{
+        padding: 10px;
+padding-left: 25px;
+padding-right: 25px;
+margin-top: 20px;
+margin-left: 60px;
+background-color: orangered;
+border: none;
+border-radius: 20px;
+    }
+.card-body button + a{
+text-decoration: none;
+color: white;
+}
+
+    .card-body h2 {
+      margin-top: 0;
+    }
+    .card1{
+     width: 300px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .cardbody{
+    padding: 20px;
+    }
+        .cardbody button{
+        padding: 10px;
+padding-left: 25px;
+padding-right: 25px;
+margin-top: 20px;
+margin-left: 60px;
+background-color: orangered;
+border: none;
+border-radius: 20px;
+    }
+.cardbody button + a{
+text-decoration: none;
+color: white;
+}
+    .cardimage img{
+ height: 300px; width:350px; 
+ padding-right: 35px;
+    }
+    .breed1{
+      margin-top: 50px;
+      display: flex;
+      margin-left: 350px;
+      width: 950px;
+      gap: 1px;
+    }
+    .breed2{
+          display: flex;
+      margin-left: 350px;
+      gap: 1px;
+      width: 950px;
+      padding-top: 5px;
+       margin-top: 1px;
+    }
+    .aside1{
+      background-image: url(images/cheltenham-shelter-9054-_2.webp);
+      height: 350px;
+width: 220px;
+      float: left;
+      background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+    }
+    .aside2{
+      background-image: url(images/rabbitfood.jpg);
+         height: 350px;
+width: 220px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+      float: left;
+    }
+
+    .miniboard{
+      background-image: url(images/backrab333.png);
+      width: 870px;
+      height: 120px;
+      margin-top: 30px;
+      margin-left: 370px;
+      padding: 50px;
+      background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+      background-color: rgb(255, 224, 234);
+     
+    }
+
+    .miniboard h3{
+      padding-top: 5px;
+      font-weight: 800;
+    }
+    .mini1{
+   
+    float: left;
+    }
+    .mini1 p{
+      border: 2px solid whitesmoke;
+    padding: 40px;
+    }
+    .mini2{
+   width: 870px;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: 370px;
+      padding: 50px;
+        display: flex;
+      border: 2px solid rgb(255, 0, 119) ;
+    }
+    .mini2 img{
+      width: 200px;
+      height: 120px;
+    }
+
+    
+     .minitxt{
+      display: block;
+      padding-left: 70px;
+     }
+     .minitxt p{
+      padding-top: 15px;
+    
+     }
+     .discount2{
+      width: 870px;
+      height: 50px;
+      margin-top: 30px;
+      margin-left: 370px;
+      background-color: whitesmoke;
+      padding: 30px;
+      color: rgb(233, 29, 94);
+       font-weight: 800;
+       font-size: x-large;
+     }
+     .equipments h4{
+     padding-top: 40px;
+     margin-left: 370px;
+     font-weight: 777px;
+     font-size: 25px;
+     }
+     .equipments p{
+       margin-left: 370px;
+       color: grey;
+     }
+     .equipments1{
+          margin-top: 50px;
+      display: flex;
+      margin-left: 350px;
+      width: 950px;
+      gap: 5px;
+     }
+     .equipments2{
+          display: flex;
+      margin-left: 350px;
+      gap: 5px;
+      width: 950px;
+      padding-top: 5px;
+       margin-top: px;
+     }
+     .barimg{
+      height: 1000px;
+      background-image: url(images/bar\ 1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 1349px;
+      color: white;
+        display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+     }
+     .barimg h2{
+       font-size: 50px;
+  letter-spacing: -1.4px;
+  font-style: normal;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(236, 231, 231);
+  font-weight: 700;
+     }
+     
+     
+
+
